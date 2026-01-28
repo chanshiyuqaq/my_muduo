@@ -13,5 +13,10 @@
   "directory": "/home/wyk/桌面/my_muduo/my_muduo/build",
   "command": "/usr/bin/g++  -I/home/wyk/桌面/my_muduo/my_muduo -I/home/wyk/桌面/muduo-master -g -Wall -g -std=gnu++11 -o CMakeFiles/net_test.dir/net/Poller.cc.o -c /home/wyk/桌面/my_muduo/my_muduo/net/Poller.cc",
   "file": "/home/wyk/桌面/my_muduo/my_muduo/net/Poller.cc"
+},
+{
+  "directory": "/home/wyk/桌面/my_muduo/my_muduo/build",
+  "command": "/usr/bin/g++  -I/home/wyk/桌面/my_muduo/my_muduo -I/home/wyk/桌面/muduo-master -g -Wall -g -std=gnu++11 -o CMakeFiles/net_test.dir/net/TimerQueue.cc.o -c /home/wyk/桌面/my_muduo/my_muduo/net/TimerQueue.cc",
+  "file": "/home/wyk/桌面/my_muduo/my_muduo/net/TimerQueue.cc"
 }
 ]

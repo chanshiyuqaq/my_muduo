@@ -11,7 +11,7 @@ set(MUDUO_LIB_PATH "${MUDUO_PATH}/build/lib")
 
 # 3. 头文件搜索路径
 include_directories(
-    ${PROJECT_SOURCE_DIR}           # 你手写的代码根目录
+    ${PROJECT_SOURCE_DIR}           # 代码根目录
     ${MUDUO_PATH}                   # 原始 muduo 目录
 )
 

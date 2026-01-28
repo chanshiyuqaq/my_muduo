@@ -201,6 +201,30 @@ net/Poller.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/net_test.dir/build.make CMakeFiles/net_test.dir/net/Poller.cc.s
 .PHONY : net/Poller.cc.s
 
+net/TimerQueue.o: net/TimerQueue.cc.o
+.PHONY : net/TimerQueue.o
+
+# target to build an object file
+net/TimerQueue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net_test.dir/build.make CMakeFiles/net_test.dir/net/TimerQueue.cc.o
+.PHONY : net/TimerQueue.cc.o
+
+net/TimerQueue.i: net/TimerQueue.cc.i
+.PHONY : net/TimerQueue.i
+
+# target to preprocess a source file
+net/TimerQueue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net_test.dir/build.make CMakeFiles/net_test.dir/net/TimerQueue.cc.i
+.PHONY : net/TimerQueue.cc.i
+
+net/TimerQueue.s: net/TimerQueue.cc.s
+.PHONY : net/TimerQueue.s
+
+# target to generate assembly for a file
+net/TimerQueue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net_test.dir/build.make CMakeFiles/net_test.dir/net/TimerQueue.cc.s
+.PHONY : net/TimerQueue.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... net/Poller.o"
 	@echo "... net/Poller.i"
 	@echo "... net/Poller.s"
+	@echo "... net/TimerQueue.o"
+	@echo "... net/TimerQueue.i"
+	@echo "... net/TimerQueue.s"
 .PHONY : help
 
 
