@@ -1,0 +1,3 @@
+/home/wyk/桌面/my_muduo/my_muduo/build/CMakeFiles/net_test.dir
+/home/wyk/桌面/my_muduo/my_muduo/build/CMakeFiles/edit_cache.dir
+/home/wyk/桌面/my_muduo/my_muduo/build/CMakeFiles/rebuild_cache.dir
