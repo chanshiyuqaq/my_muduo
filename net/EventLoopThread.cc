@@ -34,7 +34,7 @@ EventLoop*EventLoopThread::startLoop()
     thread_.start();
     EventLoop*loop = NULL;
     {
-
+        //
         MutexLockGuard lock(mutex_);
         while(loop_==NULL)
         {

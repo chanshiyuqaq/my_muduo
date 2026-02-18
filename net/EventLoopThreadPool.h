@@ -31,7 +31,8 @@ class EventLoopThreadPool: noncopyable
     std::vector<EventLoop*>getAllLoop();
     bool started()const{return started_;}
     const string& name()const{return name_;}
-    
+
+
     private:
     EventLoop* baseLoop_;
     string name_;
@@ -42,8 +43,6 @@ class EventLoopThreadPool: noncopyable
     std::vector<EventLoop*>loops_;
 
 };
-
-
 
 }
 }
