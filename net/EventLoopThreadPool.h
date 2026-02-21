@@ -28,7 +28,7 @@ class EventLoopThreadPool: noncopyable
     void start(const ThreadInitCallback& cb = ThreadInitCallback());
     EventLoop* getNextLoop();
     EventLoop* getLoopForHash(size_t hashCode);
-    std::vector<EventLoop*>getAllLoop();
+    std::vector<EventLoop*>getAllLoops();
     bool started()const{return started_;}
     const string& name()const{return name_;}
 
